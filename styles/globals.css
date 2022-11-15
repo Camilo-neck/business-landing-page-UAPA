@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .main {
+    @apply py-16 flex-1 flex flex-col justify-center items-center;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -10,15 +16,6 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .clip-path {
-    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
-    clip-path: polygon(50% 0%, 100% 0, 100% 91%, 75% 100%, 25% 100%, 0 91%, 0 0);
-}
-
-.main {
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
 }

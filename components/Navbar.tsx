@@ -27,7 +27,7 @@ function classNames(...classes: any[]) {
 
 export default function Navbar() {
 	return (
-		<Disclosure as="nav" className="bg-transparent absolute z-1 w-full mt-5">
+		<Disclosure as="nav" className="bg-transparent absolute z-[9] w-full mt-5">
 			{({ open }) => (
 				<>
 					<div className="flex text-center">
