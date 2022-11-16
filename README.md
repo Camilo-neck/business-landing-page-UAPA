@@ -1,7 +1,7 @@
 # Figmaland Businness Landing Page - UAPApp
 Landing Page corporativa enfocada para promocionar una empresa. Se diseñó con el fin de aplicar a la convocatoria de UAPA
 ## Aplicación en funcionamiento
-![Aplicacion en funcionamiento](resources\app_working.gif)
+![Aplicacion en funcionamiento](/resources/app_working.gif)
 ## Tecnologías
 
  - NextJS <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
